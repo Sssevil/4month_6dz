@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 10px;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+table, th, td {
+    margin-top: 10px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 10px;
+    min-width: 100px;
+    max-width: 100px;
+    overflow: auto;
+    white-space: nowrap;
+}
